@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+nav {
+    background-color: rgb(20, 20, 20);
+    padding: 0.1em 1em;
+    text-align: end;
+    display: fixed;
+}
+
+.navula {
+    list-style: none;
+    display: inline-block;
+}
+
+.navula a {
+    text-decoration:none;
+    color: white;
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+
+.navula a:hover {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+}
+
+.red {
+    display: inline-block;
+    text-decoration:none;
+    margin: 0 1em;
+}
+
+.red a {
+    text-decoration:none;
+    color: black;
+}

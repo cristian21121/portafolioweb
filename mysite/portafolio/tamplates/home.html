@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+<main>
+    <div class="me">
+        <h1 id="lol">
+            Hola,<br>
+            Yo soy Cristian <br>
+            Desarrollador de Software
+        </h1>
+        <a href=""> <button>Contacto</button> </a>
+    </div>
+    <img src="{% static 'images/me.jpg' %}" alt="Foto de Cristian">
+</main>
+<hr>
+<div class="sobreMi">
+    <p>Actualmente curso una tecnología de Desarrollo de Software en la Fundación Universitaria Católica del Norte <br>
+    Adicionalmente practico y creo mis propios proyectos como esta página web. </p>
+</div>
+
+{% endblock %}
